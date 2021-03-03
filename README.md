@@ -27,7 +27,7 @@ DeepLab is a state-of-art deep learning model for semantic image segmentation, w
 ![result](result_image.png)
 
 ### Segmentation Result(Video)
-![29th frame](28.png)
+![29th frame](28.jpg)
 
 | 10s of driving|10sec detected result |
 |--|--|
