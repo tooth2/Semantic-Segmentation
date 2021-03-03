@@ -6,6 +6,13 @@ a tensorflow implementation for scene understanding and object detection using S
 
 In the driving context, we aim to obtain a semantic understanding of the front driving scene throught the camera input. This is important for driving safety and an essential requirement for all levels of autonomous driving. The first step is to build the model and load the pre-trained weights. In this demo, we use the model checkpoint trained on [Cityscapes](https://www.cityscapes-dataset.com/) dataset.
 
+### Semantic Image Segementation Examples **CityScacpes**
+Following segemented images are from [Cityscapes](https://www.cityscapes-dataset.com/) dataset result.
+|Road, Pedestrian, Bicycle, Traffic sign|Road, Car,Traffic Sign, Traffic Light |
+|--|--|
+| <img src="https://www.cityscapes-dataset.com/wordpress/wp-content/uploads/2015/07/muenster00.png" width=400/> | <img src="https://www.cityscapes-dataset.com/wordpress/wp-content/uploads/2015/07/zuerich00.png" width=400/> |
+
+
 ### Build the model - Steps
 * Load the latest version of the pretrained DeepLab model
     * [MobileNetv2 Coco Train model](http://download.tensorflow.org/models/deeplabv3_mnv2_pascal_train_aug_2018_01_29.tar.gz)
@@ -24,10 +31,6 @@ LABEL_NAMES = np.asarray([
     'person', 'pottedplant', 'sheep', 'sofa', 'train', 'tv'
 ])
 ```
-
-|Road, Pedestrian, Bicycle, Traffic sign|Road, Car,Traffic Sign, Traffic Light |
-|--|--|
-| <img src="https://www.cityscapes-dataset.com/wordpress/wp-content/uploads/2015/07/muenster00.png" width=400/> | <img src="https://www.cityscapes-dataset.com/wordpress/wp-content/uploads/2015/07/zuerich00.png" width=400/> |
 
 ### Limitations of This Approach
 * very expensive to label this data (labeling every pixel)
