@@ -39,12 +39,16 @@ LABEL_NAMES = np.asarray([
 ### Segmentation Result(Overlayed Image)
 ![result](result_image.png)
 
+Cars are detected and overlayed with "gray" colored segmented region.
+
 ### Segmentation Result(Overlayed Video)
 ![29th frame](28.jpg)
 
 | 10s of Driving|10sec Segmented Result |
 |--|--|
 |![Driving](driving.gif) | ![Result](segmented.gif)|
+
+Cars are detected and overlayed with "gray" colored segmented region. Pedestrians are detected and overlayed with "pink" colored segemented region. 
 
 ### Reference 
 * [Semantic Image Segmentation with Deep Convolutional Nets and Fully Connected CRFs](https://arxiv.org/abs/1412.7062)
