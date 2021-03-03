@@ -13,7 +13,7 @@ In the driving context, we aim to obtain a semantic understanding of the front d
     * [Xception CoCo VocTrain](http://download.tensorflow.org/models/deeplabv3_pascal_train_aug_2018_01_04.tar.gz)
     * [Xception CoCo VocTrain Validation](http://download.tensorflow.org/models/deeplabv3_pascal_trainval_2018_01_04.tar.gz)
 * Load the colormap from the PASCAL VOC dataset
-* Adds colors to various labels, such as "pink" for people, "green" for bicycle and more
+* Adds colors to various labels, such as "gray" for car, "pink" for people, "green" for bicycle and more as shown in the below result image
 * Visualize an image, and add an overlay of colors on various regions
 
  Selected Segmented lables are as follows: 
