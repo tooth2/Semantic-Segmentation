@@ -26,6 +26,13 @@ DeepLab is a state-of-art deep learning model for semantic image segmentation, w
 ### Segmentation Result(image)
 ![result](result_image.png)
 
+### Segmentation Result(Video)
+![29th frame](28.png)
+
+| 10s of driving|10sec detected result |
+|--|--|
+|![Driving](driving.gif) | ![Result](segmented.gif)|
+
 ### Reference 
 * [FCN paper]
 * [Hierarchical Multi-Scale Attention for semantic segmentation](https://arxiv.org/abs/2005.10821)
