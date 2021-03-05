@@ -47,6 +47,9 @@ Cars are detected and overlayed with "gray" colored segmented region.
 | 10s of Driving|10sec Segmented Result |
 |--|--|
 |![Driving](driving.gif) | ![Result](segmented.gif)|
+|Original Driving HQ Video|Segmented HQ Video|
+|[![Driving](http://img.youtube.com/vi/Z519jSlgYUA/0.jpg)](https://www.youtube.com/watch?v=lZ519jSlgYUA "sample") |[![All](http://img.youtube.com/vi/ymMVubGbYHk/0.jpg)](https://www.youtube.com/watch?v=ymMVubGbYHk "Semantic Image Segmentation result")|
+
 
 Cars are detected and overlayed with "gray" colored segmented region. Pedestrians are detected and overlayed with "pink" colored segemented region. 
 
